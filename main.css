@@ -1,0 +1,81 @@
+header{
+    padding: 12px 0;
+    border-radius: 10px;
+    box-shadow: 4px 3px 10px grey;
+    background-image: url('./6768f29b6d5da42209177484_Rectangle\ \(79\).svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+}
+.rasm{
+    background-size: cover;
+}      
+body{
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    padding-right: 120px;
+}
+.nav li{
+    margin-left: 50px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: cyan;
+
+}
+h1{
+    text-align: center;
+}
+h1 > span{
+    color: red;
+    
+}
+.all-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.info{
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+    padding-top: 50px;
+    box-shadow: 4px 3px 10px grey;
+}  
+.info  p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info-image{
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    box-shadow: 4px 3px 15px grey;
+}
+.all-info img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
